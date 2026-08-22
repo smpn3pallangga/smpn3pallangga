@@ -1,0 +1,52 @@
+[
+  {
+    "id": "kalender-akademik",
+    "title": "Kalender Pendidikan Tahun 2026/2027",
+    "category": "Kalender Akademik",
+    "description": "Kalender pendidikan tahun ajaran berjalan yang memuat jadwal semester, libur, dan agenda akademik.",
+    "filetype": "PDF",
+    "filesize": "",
+    "filename": "kalender-akademik-2026-2027.pdf",
+    "url": ""
+  },
+  {
+    "id": "contoh-soal-numerasi",
+    "title": "Contoh Soal Numerasi Kelas IX",
+    "category": "Bahan Uji",
+    "description": "Latihan numerasi berbasis konteks untuk murid kelas IX.",
+    "filetype": "PDF",
+    "filesize": "",
+    "filename": "contoh-soal-numerasi-kelas-ix.pdf",
+    "url": ""
+  },
+  {
+    "id": "tata-tertib",
+    "title": "Panduan Tata Tertib Peserta Didik",
+    "category": "Dokumen Sekolah",
+    "description": "Dokumen tata tertib dan budaya disiplin yang berlaku di lingkungan sekolah.",
+    "filetype": "PDF",
+    "filesize": "",
+    "filename": "panduan-tata-tertib-peserta-didik.pdf",
+    "url": ""
+  },
+  {
+    "id": "formulir-izin-kegiatan",
+    "title": "Formulir Izin Kegiatan Murid",
+    "category": "Formulir",
+    "description": "Formulir izin kegiatan murid yang dapat diunduh dan dicetak.",
+    "filetype": "PDF",
+    "filesize": "",
+    "filename": "formulir-izin-kegiatan-murid.pdf",
+    "url": ""
+  },
+  {
+    "id": "layanan-perpustakaan",
+    "title": "Informasi Layanan Perpustakaan",
+    "category": "Panduan",
+    "description": "Ketentuan peminjaman buku, jam layanan, dan tata cara keanggotaan perpustakaan.",
+    "filetype": "PDF",
+    "filesize": "",
+    "filename": "informasi-layanan-perpustakaan.pdf",
+    "url": ""
+  }
+]

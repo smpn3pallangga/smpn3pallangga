@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="id" style="--public-header-offset: 76px;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Program Unggulan Sekolah | SMP NEGERI 3 PALLANGGA</title>
+<link rel="icon" type="image/jpg" href="assets/images/logosmp.jpg">
+<link rel="shortcut icon" href="assets/images/8T39AES6mD11dHiDCY4qBs5mk0IaQOrv8MGryNff.png">
+<link rel="apple-touch-icon" href="assets/images/8T39AES6mD11dHiDCY4qBs5mk0IaQOrv8MGryNff.png">
+<meta name="description" content="Program unggulan SMP Negeri 3 Pallangga: budaya positif A'Lipassa'be, upacara bendera, student show, annangkasi, angaji, library visit, akgiok, gamaccata, dan jubah.">
+<link rel="canonical" href="https://www.smp1punung.sch.id/program-unggulan">
+<meta property="og:site_name" content="SMP NEGERI 3 PALLANGGA">
+<meta property="og:title" content="Program Unggulan Sekolah | SMP NEGERI 3 PALLANGGA">
+<meta property="og:description" content="Program unggulan SMP Negeri 3 Pallangga: budaya positif A'Lipassa'be, upacara bendera, student show, annangkasi, angaji, library visit, akgiok, gamaccata, dan jubah.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.smp1punung.sch.id/program-unggulan">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Source+Serif+4:wght@600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<style>
+    :root {
+        --bg: #f5f9ff;
+        --surface: #ffffff;
+        --ink: #18263f;
+        --heading: #132238;
+        --muted: #765e48;
+        --line: #e3cba8;
+        --primary: #1d4ed8;
+        --primary-2: #1e3a8a;
+        --accent: #84cc16;
+        --radius: 18px;
+        --container-width: 1062px;
+        --button-radius: 16px;
+        --card-shadow: 0 22px 44px rgba(18, 42, 76, .12);
+        --topbar-bg: linear-gradient(135deg, color-mix(in srgb, #1e3a8a 92%, #06111f), color-mix(in srgb, #1d4ed8 88%, #071326));
+        --topbar-text: #ffffff;
+        --topbar-line: rgba(255,255,255,.22);
+        --topbar-subtle-line: rgba(255,255,255,.18);
+        --topbar-active-text: #ffffff;
+        --topbar-active-bg: rgba(255,255,255,.14);
+        --topbar-pill-bg: rgba(255,255,255,.13);
+        --topbar-pill-text: #ffffff;
+        --topbar-marquee-bg: color-mix(in srgb, #1e3a8a 82%, #071326);
+        --topbar-marquee-text: #ffffff;
+        --footer-bg: linear-gradient(145deg, color-mix(in srgb, #1e3a8a 88%, #050b18), color-mix(in srgb, #1d4ed8 72%, #071326));
+        --footer-text: #dbe7f6;
+        --font-body: 'Plus Jakarta Sans', sans-serif;
+        --font-heading: 'Plus Jakarta Sans', sans-serif;
+        --public-header-offset: 110px;
+    }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+    body {
+        position: relative;
+        isolation: isolate;
+        min-height: 100vh;
+        margin: 0;
+        padding-top: var(--public-header-offset);
+        padding-bottom: 0;
+        font-family: var(--font-body);
+        color: var(--ink);
+        background:
+            radial-gradient(860px 460px at 8% -12%, color-mix(in srgb, var(--primary) 24%, transparent) 0%, transparent 72%),
+            radial-gradient(700px 360px at 95% 8%, color-mix(in srgb, var(--accent) 18%, transparent) 0%, transparent 68%),
+            linear-gradient(180deg, color-mix(in srgb, var(--bg) 82%, white), var(--bg));
+    }
+    h1, h2, h3, h4, h5, h6 { margin-top: 0; color: var(--heading); letter-spacing: .1px; font-family: var(--font-heading); }
+    .container { width: 100%; max-width: var(--container-width); padding-left: 1rem; padding-right: 1rem; margin: 0 auto; }
+
+    /* ===== Topbar (identical system) ===== */
+    .topbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1200; backdrop-filter: blur(6px); background: var(--topbar-bg); border-bottom: 1px solid var(--topbar-line); box-shadow: 0 10px 26px rgba(15, 31, 56, .08); }
+    main[id], section[id], [id].scroll-target { scroll-margin-top: calc(var(--public-header-offset) + 16px); }
+    .topbar-marquee { border-top: 1px solid var(--topbar-subtle-line); border-bottom: 1px solid var(--topbar-subtle-line); background: var(--topbar-marquee-bg); overflow: hidden; white-space: nowrap; }
+    .topbar-marquee-track { display: inline-block; padding: .42rem 0; color: var(--topbar-marquee-text); font-size: .84rem; font-weight: 600; animation: marquee-move 26s linear infinite; }
+    @keyframes marquee-move { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+    .topbar-inner { display: grid; grid-template-columns: minmax(220px, max-content) minmax(0, 1fr); grid-template-areas: "brand utility" "nav nav"; align-items: center; padding: 0.8rem 0 0.65rem; gap: .8rem 1rem; min-width: 0; position: relative; }
+    .brand { grid-area: brand; display: flex; align-items: center; gap: .65rem; text-decoration: none; color: var(--topbar-text); font-weight: 800; letter-spacing: .2px; min-width: 0; }
+    .brand span:last-child { display: block; min-width: 0; max-width: min(38vw, 440px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .brand-badge { width: 36px; height: 36px; flex-shrink: 0; overflow: hidden; border-radius: 12px; display: grid; place-items: center; color: #fff; font-weight: 700; background: linear-gradient(135deg, var(--primary), color-mix(in srgb, var(--primary) 74%, var(--surface))); box-shadow: 0 8px 18px color-mix(in srgb, var(--primary) 30%, transparent); }
+    .brand-badge img { width: 100%; height: 100%; object-fit: contain; }
+    .topbar-utility { grid-area: utility; display: flex; align-items: center; justify-content: flex-end; gap: .5rem; min-width: 0; flex-wrap: wrap; }
+    .topbar-social { display: inline-flex; align-items: center; gap: .32rem; padding: .2rem; border: 1px solid var(--topbar-subtle-line); border-radius: 999px; background: var(--topbar-pill-bg); }
+    .topbar-social-link { width: 30px; height: 30px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; color: var(--topbar-pill-text); text-decoration: none; transition: .18s ease; }
+    .topbar-social-link:hover { color: #fff; background: var(--primary); }
+    .topbar-contact-pill { max-width: 240px; display: inline-flex; align-items: center; gap: .45rem; padding: .48rem .78rem; border: 1px solid var(--topbar-subtle-line); border-radius: 999px; background: var(--topbar-pill-bg); color: var(--topbar-pill-text); text-decoration: none; font-size: .8rem; font-weight: 700; line-height: 1; }
+    .topbar-contact-pill:hover { color: var(--primary); border-color: color-mix(in srgb, var(--primary) 28%, white); }
+    .topbar-contact-pill span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .nav-links { grid-area: nav; display: flex; align-items: flex-start; gap: 1rem; min-width: 0; justify-content: space-between; width: 100%; padding-top: .25rem; border-top: 1px solid var(--topbar-subtle-line); }
+    .public-nav { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; flex-wrap: wrap; gap: .2rem; min-width: 0; flex: 1 1 auto; }
+    .nav-item { position: relative; }
+    .nav-link-main { appearance: none; border: 0; background: transparent; cursor: pointer; text-decoration: none; color: color-mix(in srgb, var(--topbar-text) 70%, transparent); font-weight: 600; font-size: .94rem; display: inline-flex; align-items: center; gap: .35rem; padding: .5rem .62rem; border-radius: 10px; white-space: nowrap; }
+    .nav-link-main:hover, .nav-link-main.active { color: var(--topbar-active-text); background: var(--topbar-active-bg); }
+    .nav-caret { display: inline-flex; width: 14px; height: 14px; opacity: .75; transition: transform .2s ease; }
+    .nav-caret svg { width: 100%; height: 100%; }
+    .nav-submenu { list-style: none; margin: 0; padding: .45rem; position: absolute; top: calc(100% + 8px); left: 0; min-width: 210px; border: 1px solid var(--line); border-radius: 12px; background: #fff; box-shadow: 0 16px 30px rgba(17, 36, 68, .12); opacity: 0; visibility: hidden; transform: translateY(8px); transition: .18s ease; z-index: 40; }
+    .nav-item:focus-within > .nav-submenu, .nav-item:hover > .nav-submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+    .nav-submenu .nav-link-main { width: 100%; justify-content: space-between; border-radius: 8px; color: #405572; }
+    .nav-submenu .nav-link-main:hover, .nav-submenu .nav-link-main.active { color: var(--primary); background: color-mix(in srgb, var(--primary) 10%, white); }
+    .mobile-menu-toggle { display: none; width: 42px; height: 42px; border-radius: 11px; border: 1px solid var(--topbar-subtle-line); background: var(--topbar-pill-bg); align-items: center; justify-content: center; gap: 4px; padding: 0; flex-direction: column; cursor: pointer; }
+    .mobile-menu-toggle span { width: 16px; height: 2px; border-radius: 999px; background: var(--topbar-pill-text); }
+    .desktop-nav-shell { width: 100%; display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+    .mobile-nav-shell { display: none; width: 100%; }
+
+    /* ===== Breadcrumb ===== */
+    .theme-breadcrumb { display: flex; align-items: center; gap: .45rem; flex-wrap: wrap; margin: 1rem 0 .3rem; font-size: .86rem; color: #7b8aa6; }
+    .theme-breadcrumb a { color: #6b7b99; text-decoration: none; }
+    .theme-breadcrumb a:hover { color: var(--primary); }
+    .theme-breadcrumb .sep { color: #a0aec7; }
+    .theme-breadcrumb .current { color: #4d6082; font-weight: 600; }
+
+    /* ===== Page hero ===== */
+    .pu-hero {
+        position: relative;
+        overflow: hidden;
+        margin: .6rem 0 1.2rem;
+        padding: clamp(1.4rem, 3.4vw, 2.4rem);
+        border-radius: calc(var(--radius) + 8px);
+        color: #fff;
+        background:
+            radial-gradient(520px 280px at 100% 0%, color-mix(in srgb, var(--accent) 30%, transparent), transparent 68%),
+            linear-gradient(135deg, #0f2f66 0%, #0f4ea8 62%, #2f6dc0 100%);
+        box-shadow: 0 22px 48px rgba(14, 50, 103, .22);
+    }
+    .pu-hero-kicker { display: inline-flex; align-items: center; gap: .5rem; border-radius: 999px; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.24); padding: .4rem .85rem; font-size: .76rem; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; }
+    .pu-hero h1 { margin: .8rem 0 .6rem; font-size: clamp(1.5rem, 3.2vw, 2.35rem); line-height: 1.18; max-width: 760px; }
+    .pu-hero p { margin: 0; max-width: 680px; color: #dbe9ff; line-height: 1.65; font-size: .98rem; }
+    .pu-hero-stats { margin-top: 1.1rem; display: flex; flex-wrap: wrap; gap: .6rem; }
+    .pu-hero-stat { background: rgba(255,255,255,.11); border: 1px solid rgba(255,255,255,.2); border-radius: 12px; padding: .55rem .85rem; font-size: .82rem; font-weight: 700; }
+    .pu-hero-stat strong { font-size: 1.05rem; display: block; line-height: 1.1; }
+    .pu-hero-stat span { color: #cfe0fb; font-weight: 600; }
+
+    /* ===== Section head reuse ===== */
+    .section { padding: .55rem 0; }
+    .section-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: .9rem; }
+    .section-head-modern { padding-bottom: .55rem; border-bottom: 1px solid color-mix(in srgb, var(--primary) 18%, var(--line)); margin-bottom: .9rem; }
+    .section-head-main { display: inline-flex; align-items: center; gap: .58rem; min-width: 0; }
+    .section-head-icon { width: 34px; height: 34px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; color: var(--primary); background: linear-gradient(140deg, color-mix(in srgb, var(--primary) 9%, var(--surface)), color-mix(in srgb, var(--primary) 16%, var(--surface))); border: 1px solid color-mix(in srgb, var(--primary) 26%, var(--line)); box-shadow: 0 6px 14px color-mix(in srgb, var(--primary) 14%, transparent); flex-shrink: 0; }
+    .section-head-icon svg { width: 18px; height: 18px; }
+    .section-title { margin: 0; font-family: 'Source Serif 4', serif; font-size: clamp(1.25rem, 2.4vw, 1.8rem); line-height: 1.2; }
+    .section-subtitle { margin: .2rem 0 0; color: var(--muted); font-size: .94rem; }
+
+    /* ===== Program cards ===== */
+    .pu-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+    }
+    .pu-card {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        border: 1px solid color-mix(in srgb, var(--primary) 14%, var(--line));
+        border-radius: calc(var(--radius) + 2px);
+        background: linear-gradient(180deg, color-mix(in srgb, var(--surface) 97%, white), #fff);
+        box-shadow: 0 16px 36px rgba(20, 43, 78, .075);
+        padding: 1.1rem;
+        transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+    .pu-card::after {
+        content: "";
+        position: absolute;
+        right: -34px;
+        bottom: -34px;
+        width: 110px;
+        height: 110px;
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--accent) 12%, transparent);
+        pointer-events: none;
+    }
+    .pu-card:hover {
+        transform: translateY(-3px);
+        border-color: color-mix(in srgb, var(--primary) 32%, var(--line));
+        box-shadow: 0 22px 46px color-mix(in srgb, var(--primary) 14%, transparent);
+    }
+    .pu-card-top {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: .6rem;
+        margin-bottom: .85rem;
+    }
+    .pu-card-icon {
+        width: 52px;
+        height: 52px;
+        flex-shrink: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 16px;
+        color: #fff;
+        font-size: 1.3rem;
+        background: linear-gradient(135deg, var(--primary), var(--primary-2));
+        box-shadow: 0 10px 22px color-mix(in srgb, var(--primary) 30%, transparent);
+    }
+    .pu-card-index {
+        font-family: 'Source Serif 4', serif;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 1;
+        color: color-mix(in srgb, var(--primary) 16%, var(--line));
+    }
+    .pu-card-body { position: relative; z-index: 1; flex: 1; display: flex; flex-direction: column; gap: .5rem; }
+    .pu-card-eyebrow {
+        display: inline-flex;
+        align-self: flex-start;
+        align-items: center;
+        gap: .3rem;
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--accent) 18%, white);
+        color: var(--primary-2);
+        padding: .22rem .58rem;
+        font-size: .68rem;
+        font-weight: 900;
+        letter-spacing: .3px;
+        text-transform: uppercase;
+    }
+    .pu-card-title {
+        margin: 0;
+        font-family: var(--font-body);
+        font-size: 1.06rem;
+        font-weight: 900;
+        line-height: 1.3;
+        color: var(--heading);
+    }
+    .pu-card-sub {
+        margin: -.2rem 0 0;
+        color: var(--primary);
+        font-size: .82rem;
+        font-weight: 750;
+        line-height: 1.3;
+    }
+    .pu-card-desc {
+        margin: 0;
+        color: var(--muted);
+        font-size: .89rem;
+        line-height: 1.62;
+    }
+    .pu-card-photo {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        aspect-ratio: 16 / 10;
+        border-radius: 14px;
+        margin: -.1rem 0 .9rem;
+        background:
+            radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 24%, transparent), transparent 48%),
+            linear-gradient(135deg, color-mix(in srgb, var(--primary) 18%, var(--surface)), color-mix(in srgb, var(--primary) 7%, var(--surface)));
+    }
+    .pu-card-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform .22s ease;
+    }
+    .pu-card:hover .pu-card-photo img {
+        transform: scale(1.04);
+    }
+    .pu-card-photo-tag {
+        position: absolute;
+        left: .6rem;
+        bottom: .6rem;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: .3rem;
+        border-radius: 999px;
+        background: rgba(8, 23, 42, .62);
+        color: #fff;
+        padding: .24rem .58rem;
+        font-size: .68rem;
+        font-weight: 800;
+        backdrop-filter: blur(2px);
+    }
+
+    /* ===== Closing CTA (reused pattern) ===== */
+    .pu-cta {
+        position: relative;
+        overflow: hidden;
+        margin: 1rem 0 1.4rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 1.1rem;
+        align-items: center;
+        padding: clamp(1.1rem, 3vw, 1.7rem);
+        border-radius: calc(var(--radius) + 8px);
+        color: #fff;
+        background: linear-gradient(135deg, #10263a 0%, #133248 58%, color-mix(in srgb, var(--primary) 52%, #10263a) 100%);
+        box-shadow: 0 22px 48px rgba(9, 24, 42, .22);
+    }
+    .pu-cta h3 { margin: 0 0 .35rem; font-size: clamp(1.15rem, 2.4vw, 1.5rem); color: #fff; }
+    .pu-cta p { margin: 0; color: rgba(239, 247, 255, .88); font-size: .95rem; line-height: 1.6; }
+    .pu-cta a {
+        display: inline-flex; align-items: center; justify-content: center; gap: .45rem;
+        min-height: 46px; padding: .7rem 1.1rem; border-radius: 999px; color: #123047;
+        background: #f8fbff; text-decoration: none; font-weight: 900; white-space: nowrap;
+        box-shadow: 0 16px 30px rgba(4, 15, 29, .22);
+    }
+    .pu-cta a:hover { background: #fff; color: #0c2538; text-decoration: none; }
+
+    /* ===== Footer (identical system) ===== */
+    .footer { border-top: 1px solid color-mix(in srgb, var(--primary) 38%, #050b18); color: var(--footer-text); font-size: .9rem; padding: 1.45rem 0 1.2rem; background: var(--footer-bg); margin-top: 1rem; }
+    .footer-card { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16); border-radius: 16px; box-shadow: 0 18px 34px rgba(3, 10, 24, .16); padding: 1rem; backdrop-filter: blur(4px); }
+    .footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+    .footer-brand { display: flex; align-items: center; gap: .65rem; margin-bottom: .55rem; color: #ffffff; font-weight: 800; font-size: 1.08rem; }
+    .footer-badge { width: 30px; height: 30px; flex-shrink: 0; overflow: hidden; border-radius: 10px; display: grid; place-items: center; color: #fff; font-weight: 700; background: linear-gradient(135deg, var(--primary), color-mix(in srgb, var(--primary) 74%, var(--surface))); }
+    .footer-badge img { width: 100%; height: 100%; object-fit: contain; }
+    .footer-title { margin: 0 0 .55rem; font-size: .92rem; font-weight: 800; color: #ffffff; letter-spacing: .2px; }
+    .footer-text { margin: 0; color: color-mix(in srgb, #ffffff 78%, var(--accent)); line-height: 1.7; font-size: .88rem; }
+    .footer-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
+    .footer-item { display: flex; align-items: flex-start; gap: .45rem; color: color-mix(in srgb, #ffffff 78%, var(--primary)); font-size: .88rem; line-height: 1.6; }
+    .footer-icon { width: 16px; height: 16px; flex-shrink: 0; margin-top: .15rem; color: color-mix(in srgb, var(--accent) 72%, white); }
+    .footer-social { list-style: none; margin: 0; padding: 0; display: flex; gap: .5rem; flex-wrap: wrap; }
+    .footer-social a { width: 34px; height: 34px; border-radius: 10px; border: 1px solid rgba(255,255,255,.22); background: rgba(255,255,255,.1); color: #ffffff; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; transition: .18s ease; }
+    .footer-social a:hover { background: color-mix(in srgb, var(--accent) 78%, white); border-color: transparent; transform: translateY(-1px); color: #10263a; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,.16); padding-top: .8rem; display: flex; justify-content: space-between; gap: .7rem; flex-wrap: wrap; color: color-mix(in srgb, #ffffff 72%, var(--primary)); font-size: .83rem; }
+
+    .wa-float { position: fixed; right: 18px; bottom: 18px; width: 56px; height: 56px; border-radius: 50%; border: 0; display: inline-flex; align-items: center; justify-content: center; color: #fff; background: linear-gradient(145deg, #25d366, #1aa84f); box-shadow: 0 14px 24px rgba(20, 122, 58, .35); z-index: 60; text-decoration: none; transition: transform .16s ease, box-shadow .16s ease; }
+    .wa-float:hover { transform: translateY(-2px); box-shadow: 0 16px 26px rgba(20, 122, 58, .42); color: #fff; }
+    .wa-float svg { width: 28px; height: 28px; }
+
+    .mobile-bottom-nav { display: none; }
+
+    @media (max-width: 980px) {
+        body { padding-top: var(--public-header-offset); }
+        .topbar-inner { display: flex; align-items: center; padding: 0.85rem 0; gap: .65rem; }
+        .brand { flex: 1 1 auto; min-width: 0; }
+        .brand-badge { width: 40px; height: 40px; border-radius: 14px; flex: 0 0 auto; }
+        .brand span:last-child { max-width: none; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.15; font-size: .98rem; }
+        .topbar-utility { display: none; }
+        .mobile-menu-toggle { display: inline-flex; margin-left: auto; width: 48px; height: 48px; border-radius: 14px; flex: 0 0 auto; }
+        .nav-links { display: none; flex-direction: column; align-items: flex-start; position: absolute; top: calc(100% + 8px); left: 0; right: 0; background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 16px 30px rgba(17, 36, 68, .12); padding: .7rem; z-index: 1300; }
+        .nav-links.is-open { display: flex; }
+        .desktop-nav-shell { display: none; }
+        .mobile-nav-shell { display: flex; width: 100%; flex-direction: column; }
+        .public-nav { width: 100%; flex-direction: column; align-items: stretch; gap: .3rem; }
+        .nav-link-main { width: 100%; justify-content: space-between; border-radius: 10px; padding: .62rem .72rem; color: #4f6286; font-weight: 700; }
+        .nav-link-main.active { background: #eaf2ff; color: #12458d; border-color: #cbdcf4; }
+        .nav-submenu { display: none; border: 0; box-shadow: none; background: transparent; position: static; opacity: 1; visibility: visible; transform: none; min-width: 0; padding: .35rem 0 0 .55rem; margin-top: .2rem; border-left: 2px solid #dce7f7; margin-left: .4rem; }
+        .nav-item.is-open > .nav-submenu { display: block; }
+        .pu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 760px) {
+        body { padding-top: var(--public-header-offset); padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
+        .container { width: 100%; max-width: 100%; padding-left: .7rem; padding-right: .7rem; }
+        .pu-grid { grid-template-columns: 1fr; }
+        .footer-grid { grid-template-columns: 1fr; }
+        .pu-cta { grid-template-columns: 1fr; }
+        .pu-cta a { width: 100%; text-align: center; }
+        .wa-float { width: 50px; height: 50px; right: 12px; bottom: calc(94px + env(safe-area-inset-bottom)); }
+        .mobile-bottom-nav {
+            position: fixed; left: 0; right: 0; bottom: 0; display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .2rem;
+            background: rgba(255, 255, 255, .97); border-top: 1px solid #d5e1f2;
+            box-shadow: 0 14px 26px rgba(22, 45, 82, .18);
+            padding: .35rem .25rem calc(.35rem + env(safe-area-inset-bottom));
+            z-index: 55; backdrop-filter: blur(4px);
+        }
+        .mobile-bottom-link { text-decoration: none; color: #617492; display: grid; justify-items: center; gap: .18rem; padding: .35rem .2rem; border-radius: 10px; font-size: .68rem; font-weight: 700; line-height: 1.1; text-align: center; }
+        .mobile-bottom-link svg { width: 18px; height: 18px; }
+        .mobile-bottom-link.active { color: #12458d; background: #eaf2ff; }
+    }
+</style>
+</head>
+<body class="theme-smp-aktif preset-navy-lime-dinamis layout-boxed header-color-theme">
+
+    <div id="site-header"></div>
+<main class="container">
+
+    <nav class="theme-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="sep">/</span>
+        <a href="/">Profil</a>
+        <span class="sep">/</span>
+        <span class="current">Program Unggulan</span>
+    </nav>
+
+    <section class="pu-hero">
+        <span class="pu-hero-kicker"><i class="fas fa-star" aria-hidden="true"></i> Program Unggulan</span>
+        <h1>Program Unggulan SMP Negeri 3 Pallangga</h1>
+        <p>Sembilan program pembiasaan yang membentuk karakter, kedisiplinan, literasi, dan kesehatan murid melalui budaya sekolah yang khas — dari penyambutan pagi hingga ibadah Jumat.</p>
+        <div class="pu-hero-stats">
+            <div class="pu-hero-stat"><strong>9</strong><span>Program Pembiasaan</span></div>
+            <div class="pu-hero-stat"><strong>Setiap Hari</strong><span>Diterapkan Rutin</span></div>
+            <div class="pu-hero-stat"><strong>Seluruh Murid</strong><span>Cakupan Program</span></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-head section-head-modern">
+            <div class="section-head-main">
+                <span class="section-head-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 4 6.5v5.2c0 4.6 3.2 8.6 8 10.3 4.8-1.7 8-5.7 8-10.3V6.5L12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+                </span>
+                <div>
+                    <h2 class="section-title">Daftar Program Unggulan</h2>
+                    <p class="section-subtitle">Pembiasaan yang membentuk budaya dan karakter murid setiap hari di sekolah.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pu-grid">
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/budaya-positif.jpg" alt="Dokumentasi kegiatan Budaya Positif A'Lipassa'be" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-hand-holding-heart"></i></span>
+                    <span class="pu-card-index">01</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Budaya Sekolah</span>
+                    <h3 class="pu-card-title">Budaya Positif A'Lipassa'be</h3>
+                    <p class="pu-card-desc">Menyambut kedatangan murid dan kepulangan murid di pintu gerbang, serta membudayakan salam, sapa, dan budaya tabe (permisi).</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/upacara.jpeg" alt="Dokumentasi kegiatan Upacara Bendera" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-flag"></i></span>
+                    <span class="pu-card-index">02</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Kedisiplinan</span>
+                    <h3 class="pu-card-title">Upacara Bendera</h3>
+                    <p class="pu-card-desc">Melaksanakan upacara pengibaran bendera setiap hari Senin dan pada peringatan hari besar nasional.</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/student-show.png" alt="Dokumentasi kegiatan Student Show" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-microphone-alt"></i></span>
+                    <span class="pu-card-index">03</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Bakat &amp; Minat</span>
+                    <h3 class="pu-card-title">Student Show</h3>
+                    <p class="pu-card-desc">Memberikan ruang kepada murid untuk tampil menunjukkan bakat dan minat di panggung edukasi sekolah.</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/annangkasi.jpg" alt="Dokumentasi kegiatan Annangkasi" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-broom"></i></span>
+                    <span class="pu-card-index">04</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Budaya Bersih</span>
+                    <h3 class="pu-card-title">Annangkasi</h3>
+                    <p class="pu-card-sub">Angkat dan Bersihkan</p>
+                    <p class="pu-card-desc">Membiasakan murid mengangkat sampah dan membersihkan lingkungan kelas maupun sekolah sebagai wujud tanggung jawab bersama.</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/angaji.jpg" alt="Dokumentasi kegiatan Angaji" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-book-open"></i></span>
+                    <span class="pu-card-index">05</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Keagamaan</span>
+                    <h3 class="pu-card-title">Angaji</h3>
+                    <p class="pu-card-desc">Membiasakan membaca ayat suci Al-Qur'an sebelum memulai kegiatan belajar di kelas.</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/library-visit.jpg" alt="Dokumentasi kegiatan Library Visit" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-book-reader"></i></span>
+                    <span class="pu-card-index">06</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Literasi</span>
+                    <h3 class="pu-card-title">Library Visit</h3>
+                    <p class="pu-card-sub">Kunjungan Perpustakaan</p>
+                    <p class="pu-card-desc">Mengagendakan kunjungan rutin murid ke perpustakaan untuk menumbuhkan minat baca dan budaya literasi.</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/akgiok.jpeg" alt="Dokumentasi kegiatan Akgiok" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-running"></i></span>
+                    <span class="pu-card-index">07</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Kesehatan &amp; Olahraga</span>
+                    <h3 class="pu-card-title">Akgiok</h3>
+                    <p class="pu-card-sub">Aksi Gerak Irama dan Olahraga Kesehatan</p>
+                    <p class="pu-card-desc">Kegiatan gerak irama dan olahraga kesehatan rutin untuk menjaga kebugaran jasmani seluruh warga sekolah.</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/gamacca.jpeg" alt="Dokumentasi kegiatan Gamaccata" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-brain"></i></span>
+                    <span class="pu-card-index">08</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Literasi</span>
+                    <h3 class="pu-card-title">Gamaccata</h3>
+                    <p class="pu-card-sub">Gerakan Mari Cerdas membaCA Tiga Pallangga</p>
+                    <p class="pu-card-desc">Gerakan literasi khas sekolah yang mengajak seluruh murid membiasakan diri cerdas membaca setiap hari.</p>
+                </div>
+            </article>
+
+            <article class="pu-card">
+                <div class="pu-card-photo">
+                    <img src="assets/images/jubah.jpeg" alt="Dokumentasi kegiatan Jubah - Jum'at iBadAH" loading="lazy">
+                    <span class="pu-card-photo-tag"><i class="fas fa-camera" aria-hidden="true"></i> Dokumentasi</span>
+                </div>
+                <div class="pu-card-top">
+                    <span class="pu-card-icon" aria-hidden="true"><i class="fas fa-mosque"></i></span>
+                    <span class="pu-card-index">09</span>
+                </div>
+                <div class="pu-card-body">
+                    <span class="pu-card-eyebrow">Keagamaan</span>
+                    <h3 class="pu-card-title">Jubah</h3>
+                    <p class="pu-card-sub">Jum'at iBadAH</p>
+                    <p class="pu-card-desc">Rangkaian kegiatan ibadah dan keagamaan yang dilaksanakan bersama setiap hari Jumat untuk memperkuat nilai spiritual murid.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="pu-cta">
+        <div>
+            <h3>Ingin Tahu Lebih Lanjut Tentang Program Sekolah?</h3>
+            <p>Hubungi sekolah untuk informasi lengkap seputar program unggulan, kegiatan akademik, dan penerimaan murid baru.</p>
+        </div>
+        <a href="/kontak">Hubungi Sekolah <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </section>
+
+</main>
+
+    <div id="site-footer"></div>
+        <script src="assets/js/site-includes.js"></script>
+        <script>
+        (() => {
+            const root = document.documentElement;
+            const headerContainer = document.getElementById('site-header');
+
+            const syncHeaderOffset = () => {
+                const header = headerContainer ? headerContainer.querySelector('.topbar') : document.querySelector('.topbar');
+                if (!header) return;
+                const marquee = headerContainer ? headerContainer.querySelector('.topbar-marquee') : document.querySelector('.topbar-marquee');
+                const height = Math.ceil(
+                    header.getBoundingClientRect().height +
+                    (marquee ? marquee.getBoundingClientRect().height : 0)
+                );
+                if (height > 0) {
+                    root.style.setProperty('--public-header-offset', `${height}px`);
+                }
+            };
+
+            syncHeaderOffset();
+            window.addEventListener('load', syncHeaderOffset);
+            window.addEventListener('resize', syncHeaderOffset);
+
+            // Header dimuat secara asinkron oleh site-includes.js, jadi pantau
+            // perubahan isi #site-header agar offset selalu sesuai tinggi asli.
+            if (headerContainer && window.MutationObserver) {
+                const observer = new MutationObserver(syncHeaderOffset);
+                observer.observe(headerContainer, { childList: true, subtree: true });
+            }
+        })();
+        </script>
+
+</body>
+</html>

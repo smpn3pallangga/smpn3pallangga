@@ -1,0 +1,107 @@
+{
+  "albums": [
+    {
+      "id": "sarana-dan-prasarana",
+      "title": "Sarana dan Prasarana",
+      "description": "Fasilitas fisik penunjang kegiatan belajar mengajar di sekolah.",
+      "photos": [
+        {
+          "src": "assets/images/jubah.jpeg",
+          "title": "Jubah Jumat Ibadah",
+          "description": "Jubah yang digunakan pada kegiatan Jumat Ibadah",
+          "featured": true
+        },
+        {
+          "src": "assets/images/ruangguru.jpeg",
+          "title": "Ruang Guru",
+          "description": "Ruang Guru"
+        },
+        {
+          "src": "assets/images/kelas.jpeg",
+          "title": "Ruang Kelas",
+          "description": "Ruang belajar utama untuk kegiatan pembelajaran harian."
+        },
+        {
+          "src": "assets/images/perpustakaan.jpeg",
+          "title": "Perpustakaan Sekolah",
+          "description": "Pusat literasi dan referensi siswa."
+        },
+        {
+          "src": "assets/images/lab.jpeg",
+          "title": "Laboratorium Komputer",
+          "description": "Fasilitas praktik informatika, KKA dan asesmen berbasis komputer."
+        },
+        {
+          "src": "assets/images/lapangan.jpeg",
+          "title": "Lapangan",
+          "description": "Digunakan untuk olahraga, dan kegiatan bersama."
+        },
+        {
+          "src": "assets/images/pramuka.jpeg",
+          "title": "Pramuka",
+          "description": "Kegiatan Pramuka warga sekolah."
+        }
+      ]
+    },
+    {
+      "id": "kegiatan-belajar",
+      "title": "Kegiatan Belajar",
+      "description": "Dokumentasi proses pembelajaran di kelas dan laboratorium.",
+      "photos": [
+        {
+          "src": "assets/images/kelas.jpeg",
+          "title": "Suasana Belajar",
+          "description": "Suasana kegiatan pembelajaran di kelas yang kondusif."
+        }
+      ]
+    },
+    {
+      "id": "upacara",
+      "title": "Upacara",
+      "description": "Dokumentasi pelaksanaan Upacara.",
+      "photos": [
+        {
+          "src": "assets/images/upacara.jpeg",
+          "title": "Upacara",
+          "description": "Upacara Tahun Pelajaran 2025/2026"
+        }
+      ]
+    },
+    {
+      "id": "sosialisasi-anti-bullying",
+      "title": "Sosialisasi Anti Bullying",
+      "description": "Sosialisasi anti bullying yang dilaksanakan oleh PPL UNM 2026.",
+      "photos": [
+        {
+          "src": "assets/images/sosialisasi-anti-bullying.jpeg",
+          "title": "Sosialisasi Anti Bullying oleh PPL UNM 2026",
+          "description": "Kegiatan sosialisasi anti bullying yang dilaksanakan oleh PPL UNM 2026"
+        }
+      ]
+    },
+    {
+      "id": "akgiok-2026",
+      "title": "Kegiatan AKGIOK 2026",
+      "description": "Rangkaian kegiatan AKGIOK 2026.",
+      "photos": [
+        {
+          "src": "assets/images/akgiok.jpeg",
+          "title": "Pameran Karya SMA KHZ MUSTHAFA",
+          "description": "Pameran hasil projek, karya kreatif, dan presentasi siswa."
+        }
+      ]
+    },
+    {
+      "id": "ekstrakurikuler",
+      "title": "Ekstrakurikuler",
+      "description": "Dokumentasi kegiatan ekstrakurikuler siswa.",
+      "photos": [
+        {
+          "src": "assets/images/paskibraka.jpeg",
+          "title": "Tim Paskibra SMP Negeri 3 Pallangga",
+          "description": "Tim Paskibra SMP Negeri 3 Pallangga"
+        }
+      ]
+    }
+  ]
+}

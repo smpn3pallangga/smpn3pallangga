@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "id": "kegiatan-siswa",
+      "title": "Kegiatan Siswa",
+      "description": "Dokumentasi kegiatan dan lomba yang diikuti siswa.",
+      "videos": [
+        {
+          "youtubeId": "M2PN3ZHTlMQ",
+          "title": "SPENT ASTRAVISTA 26",
+          "description": "SPENT ASTRAVISTA 26 - SMP Negeri 3 Pallangga",
+          "featured": true
+        },
+        {
+          "youtubeId": "rBoW4aE2W4U",
+          "title": "Perang Besar Sultan Hasanuddin di Gowa Tallo",
+          "description": "Drama bahasa Inggris SMP Negeri 3 Pallangga: Perang besar Sultan Hasanuddin di Gowa Tallo"
+        },
+        {
+          "youtubeId": "qVZsx68X-Zg",
+          "title": "Upacara Kemerdekaan SMP Negeri 3 Pallangga",
+          "description": "Upacara kemerdekaan SMP Negeri 3 Pallangga"
+        },
+        {
+          "youtubeId": "cDfIhZa5EjU",
+          "title": "\"Terharu\" Acara Perpisahan Siswa SMP Negeri 3 Pallangga",
+          "description": "Acara perpisahan siswa SMP Negeri 3 Pallangga yang mengharukan"
+        },
+        {
+          "youtubeId": "jq278SKPQ54",
+          "title": "Penampilan LKBB SMPN 3 Pallangga - Patonro Maka Se're",
+          "description": "Penampilan LKBB SMP Negeri 3 Pallangga pada lomba Patonro Maka Se're"
+        },
+        {
+          "youtubeId": "lZ1Nsc9NDXo",
+          "title": "Parade Busana Adat di SMPN 3 Pallangga",
+          "description": "Parade busana adat di SMP Negeri 3 Pallangga"
+        },
+        {
+          "youtubeId": "ef2SzgSkrSg",
+          "title": "\"Ngaru\" Gurunya SMP Negeri 3 Pallangga Bisa Tonji",
+          "description": "Penampilan guru-guru SMP Negeri 3 Pallangga"
+        },
+        {
+          "youtubeId": "EHh_wNJr99o",
+          "title": "Lomba Paskibra SMPN 3 Pallangga - The Greatest Chapter 1",
+          "description": "Lomba Paskibra SMP Negeri 3 Pallangga - The Greatest Chapter 1"
+        },
+        {
+          "youtubeId": "osVYibM2YI8",
+          "title": "Lomba LKBB Paskibra The Greatest Chapter 1 (SMP Negeri 3 Pallangga)",
+          "description": "Lomba LKBB Paskibra The Greatest Chapter 1 (SMP Negeri 3 Pallangga)"
+        }
+      ]
+    }
+  ]
+}

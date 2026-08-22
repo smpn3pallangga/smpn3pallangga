@@ -1,0 +1,110 @@
+[
+  {
+    "id": "futsal",
+    "name": "Futsal",
+    "code": "Futsal",
+    "icon": "fa-futbol",
+    "status": "aktif",
+    "category": "Olahraga",
+    "description": "Ekstrakurikuler Futsal SMP Negeri 3 Pallangga menjadi wadah bagi murid untuk mengembangkan bakat, kemampuan teknik, dan sportivitas dalam olahraga futsal. Melalui latihan yang rutin dan terarah, murid dibina untuk meningkatkan kerja sama tim, disiplin, serta mental bertanding.",
+    "pembina": ["Sitti Adawiah Abd Muin L, M.Pd"],
+    "ketua": "",
+    "photo": "assets/images/futsal.jpeg"
+  },
+  {
+    "id": "pramuka",
+    "name": "Pramuka",
+    "code": "Pramuka",
+    "icon": "fa-flag",
+    "status": "aktif",
+    "category": "Wajib",
+    "description": "Ekstrakurikuler Pramuka SMP Negeri 3 Pallangga membina kedisiplinan, kemandirian, kerja sama, dan jiwa kepemimpinan murid melalui berbagai kegiatan kepramukaan.",
+    "pembina": ["Amir, S.Pd.I", "Salma S, S.Pd.,Gr."],
+    "ketua": "",
+    "photo": "assets/images/pramukaa.jpeg"
+  },
+  {
+    "id": "pmr",
+    "name": "PMR (Palang Merah Remaja)",
+    "code": "PMI",
+    "icon": "fa-first-aid",
+    "status": "aktif",
+    "category": "Kemanusiaan",
+    "description": "Ekstrakurikuler PMI membekali murid dengan keterampilan pertolongan pertama, kepedulian sosial, dan kesiapsiagaan dalam membantu sesama.",
+    "pembina": ["Rusmiati, S.Pd.,Gr.", "Nurhaenah, S.Pd.,Gr."],
+    "ketua": "",
+    "photo": "assets/images/pmr.jpeg"
+  },
+  {
+    "id": "paskibra",
+    "name": "Paskibra",
+    "code": "Paskibra",
+    "icon": "fa-flag-checkered",
+    "status": "aktif",
+    "category": "Kedisiplinan",
+    "description": "Ekstrakurikuler Paskibra melatih kedisiplinan baris-berbaris, kekompakan, dan rasa cinta tanah air murid sebagai bekal menjadi petugas pengibar bendera.",
+    "pembina": ["Mawardi, S.Pd."],
+    "ketua": "",
+    "photo": "assets/images/paskib.jpeg"
+  },
+  {
+    "id": "komunitas-enjoy",
+    "name": "Komunitas Enjoy",
+    "code": "Komunitas Enjoy",
+    "icon": "fa-smile",
+    "status": "aktif",
+    "category": "Minat & Bakat",
+    "description": "Ekstrakurikuler Komunitas Enjoy menjadi wadah pengembangan minat dan bakat murid dalam suasana belajar yang menyenangkan.",
+    "pembina": ["Murni Rasyid, S.Pd.I.,Gr."],
+    "ketua": "",
+    "photo": ""
+  },
+  {
+    "id": "rohis",
+    "name": "Rohis",
+    "code": "Rohis",
+    "icon": "fa-mosque",
+    "status": "aktif",
+    "category": "Keagamaan",
+    "description": "Ekstrakurikuler Rohis membina akhlak, spiritualitas, dan wawasan keagamaan murid melalui kegiatan kerohanian Islam.",
+    "pembina": ["Hasnah C, S.Pd"],
+    "ketua": "",
+    "photo": ""
+  },
+  {
+    "id": "seni",
+    "name": "Seni",
+    "code": "Seni",
+    "icon": "fa-palette",
+    "status": "aktif",
+    "category": "Seni & Budaya",
+    "description": "Ekstrakurikuler Seni menjadi wadah murid mengembangkan kreativitas dan bakat di bidang seni.",
+    "pembina": ["Ahmad Abdi Abi, S.Pd.,Gr."],
+    "ketua": "",
+    "photo": "assets/images/tari.jpeg"
+  },
+  {
+    "id": "paduan-suara",
+    "name": "Paduan Suara",
+    "code": "Paduan Suara",
+    "icon": "fa-music",
+    "status": "aktif",
+    "category": "Seni & Budaya",
+    "description": "Ekstrakurikuler Paduan Suara melatih murid dalam bernyanyi bersama, harmonisasi vokal, dan tampil pada acara-acara sekolah.",
+    "pembina": ["Rusnah, S.Pd"],
+    "ketua": "",
+    "photo": ""
+  },
+  {
+    "id": "akgiok",
+    "name": "AKGIOK",
+    "code": "AKGIOK",
+    "icon": "fa-users",
+    "status": "aktif",
+    "category": "Minat & Bakat",
+    "description": "Ekstrakurikuler AKGIOK menjadi wadah pengembangan minat dan bakat murid SMP Negeri 3 Pallangga.",
+    "pembina": ["Maulini Sunusi, S.Pd, M.Si"],
+    "ketua": "",
+    "photo": "assets/images/akgiok.jpeg"
+  }
+]

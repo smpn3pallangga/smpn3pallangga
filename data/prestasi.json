@@ -1,0 +1,48 @@
+{
+  "achievements": [
+    {
+      "id": "1",
+      "category": "sekolah",
+      "title": "Pembinaan Karakter Melalui Kegiatan Kepramukaan",
+      "awardee": "Gugus Depan SMPN 3 Pallangga",
+      "level": "Sekolah",
+      "year": "2025",
+      "description": "Sekolah rutin menggelar kegiatan perkemahan dan pembinaan karakter tunas muda melalui program kepramukaan.",
+      "image": "assets/images/pramuka.jpeg",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "category": "siswa",
+      "title": "Delegasi Turnamen Futsal Antarpelajar",
+      "awardee": "Tim Futsal Siswa",
+      "level": "Regional",
+      "year": "2025",
+      "description": "Siswa didelegasikan mengikuti ajang kompetisi futsal antarpelajar tingkat regional sebagai bagian dari pembinaan bakat olahraga.",
+      "image": "assets/images/futsal.jpeg",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "category": "sekolah",
+      "title": "Inovasi Pembelajaran Interaktif Seni dan Matematika",
+      "awardee": "Tim Pengembang Pembelajaran",
+      "level": "Nasional",
+      "year": "2025",
+      "description": "Sekolah menjadi objek penerapan metode pembelajaran interaktif untuk meningkatkan hasil belajar siswa, termasuk pada bidang seni tari dan matematika.",
+      "image": "assets/images/tari.jpeg",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "category": "sekolah",
+      "title": "Partisipasi Dialog dan Evaluasi Mutu Pendidikan",
+      "awardee": "Manajemen Sekolah",
+      "level": "Kabupaten",
+      "year": "2025",
+      "description": "Sekolah aktif dalam program dialog pendidikan serta evaluasi pengawasan mutu layanan bersama Dinas Pendidikan Kabupaten Gowa.",
+      "image": "assets/images/manajemen-sekolah.png",
+      "featured": false
+    }
+  ]
+}

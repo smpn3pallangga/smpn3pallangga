@@ -1,0 +1,61 @@
+{
+  "categories": [
+    {
+      "id": "ruang-belajar",
+      "title": "Ruang Belajar",
+      "description": "Ruang kelas dan fasilitas literasi untuk kegiatan belajar sehari-hari.",
+      "facilities": [
+        {
+          "title": "Ruang Kelas",
+          "image": "assets/images/kelas.jpeg",
+          "count": "19 Ruang",
+          "location": "SMPN 3 Pallangga",
+          "description": "Ruang belajar utama untuk kegiatan pembelajaran harian.",
+          "featured": true
+        },
+        {
+          "title": "Perpustakaan Sekolah",
+          "image": "assets/images/perpustakaan.jpeg",
+          "count": "1 Ruang",
+          "location": "Lantai 1",
+          "description": "Pusat literasi dan referensi siswa."
+        }
+      ]
+    },
+    {
+      "id": "sarana-prasarana",
+      "title": "Sarana & Prasarana",
+      "description": "Fasilitas pendukung yang menunjang kegiatan dan kenyamanan warga sekolah.",
+      "facilities": [
+        {
+          "title": "Toilet",
+          "image": "assets/images/toilet.jpeg",
+          "count": "12 unit",
+          "location": "Gedung SMPN 3 Pallangga",
+          "description": ""
+        },
+        {
+          "title": "Ruang Guru",
+          "image": "assets/images/ruangguru.jpeg",
+          "count": "1 unit",
+          "location": "",
+          "description": "Gedung Sekolah yang representatif"
+        },
+        {
+          "title": "Laboratorium Komputer",
+          "image": "assets/images/lab.jpeg",
+          "count": "2 Ruang",
+          "location": "Gedung Laboratorium",
+          "description": "Fasilitas praktik informatika, KKA dan asesmen berbasis komputer."
+        },
+        {
+          "title": "Lapangan",
+          "image": "assets/images/lapangan.jpeg",
+          "count": "1 Area",
+          "location": "Area Belakang Sekolah",
+          "description": "Digunakan untuk olahraga, dan kegiatan bersama."
+        }
+      ]
+    }
+  ]
+}

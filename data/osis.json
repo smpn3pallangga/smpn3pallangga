@@ -1,0 +1,94 @@
+{
+  "periode": "2025/2026",
+  "hero": {
+    "eyebrow": "Kepengurusan Aktif",
+    "title": "Organisasi Siswa (OSIS)",
+    "desc": "Ruang kreasi, kepemimpinan, dan kolaborasi murid untuk menggerakkan program organisasi sekolah SMPN 3 PALLANGGA."
+  },
+  "visi": "(Isi visi OSIS) Mewujudkan organisasi siswa yang aktif, kreatif, disiplin, dan berintegritas untuk mendukung budaya sekolah.",
+  "misi": [
+    "Meningkatkan partisipasi murid dalam kegiatan sekolah yang positif.",
+    "Mendorong kepemimpinan, kolaborasi, dan tanggung jawab sosial antar murid.",
+    "Menyelenggarakan program kerja yang inovatif, terukur, dan berkelanjutan.",
+    "Menjadi jembatan komunikasi antara murid, guru, dan manajemen sekolah."
+  ],
+  "pembina": [
+    {
+      "name": "(Isi Nama Pembina OSIS)",
+      "jabatan": "Pembina OSIS",
+      "photo": ""
+    }
+  ],
+  "pengurus": [
+    { "name": "(Isi Nama Ketua OSIS)", "jabatan": "Ketua OSIS", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Wakil Ketua OSIS)", "jabatan": "Wakil Ketua OSIS", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Sekretaris)", "jabatan": "Sekretaris", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Wakil Sekretaris)", "jabatan": "Wakil Sekretaris", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Bendahara)", "jabatan": "Bendahara", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Wakil Bendahara)", "jabatan": "Wakil Bendahara", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Koordinator)", "jabatan": "Koordinator Sekbid. Keimanan dan Ketaqwaan Terhadap Tuhan Yang Maha Esa", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Koordinator)", "jabatan": "Koordinator Sekbid. Kepribadian dan Budi Pekerti Luhur", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Koordinator)", "jabatan": "Koordinator Sekbid. Organisasi, Politik dan Kepemimpinan", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Koordinator)", "jabatan": "Koordinator Sekbid. Ketrampilan dan Kewirausahaan", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Koordinator)", "jabatan": "Koordinator Sekbid. Apresiasi Dan Kreasi Seni", "kelas": "Kelas -", "photo": "" },
+    { "name": "(Isi Nama Koordinator)", "jabatan": "Koordinator Sekbid. Kesegaran Jasmani dan Daya Kreasi", "kelas": "Kelas -", "photo": "" }
+  ],
+  "program_kerja": [
+    {
+      "sekbid": "Sekbid. Kepribadian dan Budi Pekerti Luhur",
+      "title": "Pekan Disiplin dan Ketertiban",
+      "description": "Koordinasi kampanye disiplin pagi, kebersihan kelas, dan evaluasi keterlambatan bersama wali kelas dan guru piket.",
+      "status": "Berjalan"
+    },
+    {
+      "sekbid": "Sekbid. Keimanan dan Ketaqwaan Terhadap Tuhan Yang Maha Esa",
+      "title": "Keimanan dan Ketaqwaan Terhadap Tuhan Yang Maha Esa",
+      "description": "Merancang kegiatan ibadah, peringatan hari besar agama, bakti sosial, dan kampanye kerukunan antarumat beragama.",
+      "status": "Berjalan"
+    },
+    {
+      "sekbid": "Sekbid. Keimanan dan Ketaqwaan Terhadap Tuhan Yang Maha Esa",
+      "title": "Bakti Sosial",
+      "description": "Penggalangan bantuan, distribusi paket, dan kolaborasi dokumentasi kegiatan sosial untuk warga sekitar sekolah.",
+      "status": "Direncanakan"
+    },
+    {
+      "sekbid": "Sekbid. Organisasi, Politik dan Kepemimpinan",
+      "title": "Reorganisasi Pengurus OSIS",
+      "description": "Persiapan pemilihan dan pelantikan pengurus OSIS periode berikutnya.",
+      "status": "Direncanakan"
+    }
+  ],
+  "kegiatan": [
+    {
+      "date": "2026-03-05",
+      "status": "Selesai",
+      "title": "(Isi Nama Kegiatan)",
+      "location": "(Isi Lokasi)",
+      "sekbid": "Sekbid. Keimanan dan Ketaqwaan Terhadap Tuhan Yang Maha Esa"
+    },
+    {
+      "date": "2026-03-18",
+      "status": "Terjadwal",
+      "title": "Rapat Koordinasi Pengurus Awal Bulan",
+      "location": "Ruang OSIS",
+      "sekbid": "Sekbid. Organisasi, Politik dan Kepemimpinan"
+    },
+    {
+      "date": "2026-03-22",
+      "status": "Terjadwal",
+      "title": "Sosialisasi Tata Tertib Pagi",
+      "location": "Lapangan Sekolah",
+      "sekbid": "Sekbid. Kepribadian dan Budi Pekerti Luhur"
+    }
+  ],
+  "galeri": [],
+  "kontak": {
+    "sekretariat": "Sekretariat OSIS SMPN 3 PALLANGGA",
+    "email": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": "",
+    "tiktok": ""
+  }
+}

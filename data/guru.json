@@ -1,0 +1,426 @@
+[
+  {
+    "name": "SYAMSUL BACHRI, S.Pd, M.Pd",
+    "jabatan": "Kepala Sekolah",
+    "mapel": "BAHASA INGGRIS",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/syamsulbachri.jpeg"
+  },
+  {
+    "name": "JAMALUDDIN, S.Pd, M.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPS",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/jamaluddin.jpeg"
+  },
+  {
+    "name": "KARTINI, S.Pd, M.Si",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/kartini.jpeg"
+  },
+  {
+    "name": "MAWARDI, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/mawardi.jpeg"
+  },
+  {
+    "name": "SITTI ADAWIAH ABD MUIN L, M.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "BAHASA INDONESIA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "NURLAELA, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "BAHASA INDONESIA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/nurlaela.jpeg"
+  },
+  {
+    "name": "ETE DIMA, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "MATEMATIKA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/etedima.jpeg"
+  },
+  {
+    "name": "RATNAWATI, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "PPKN",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/ratnawati.jpeg"
+  },
+  {
+    "name": "MARLINA, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/marlina.jpeg"
+  },
+  {
+    "name": "MAULINI SUNUSI, S.Pd, M.Si",
+    "jabatan": "Guru Mapel",
+    "mapel": "SENI BUDAYA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/maulini-sunusi.jpeg"
+  },
+  {
+    "name": "SABHANNUR, S.Pd, M.Si",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/sabhannur.jpeg"
+  },
+  {
+    "name": "RUSNAH, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "SENI BUDAYA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/rusnah.jpeg"
+  },
+  {
+    "name": "ST MUHABBA, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "BAHASA INDONESIA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/st-muhabba.jpeg"
+  },
+  {
+    "name": "ZAKIAH H NURDIN, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "MATEMATIKA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/zakiah-h-nurdin.jpeg"
+  },
+  {
+    "name": "NUR INNAH, S.Pd, M.Si",
+    "jabatan": "Guru Mapel",
+    "mapel": "PPKN",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/nur-innah.jpeg"
+  },
+  {
+    "name": "ANDI NILAWATI, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "BIMBINGAN DAN KONSELING",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "RISNANINGSIH, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "MATEMATIKA",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/risnaningsih.jpeg"
+  },
+  {
+    "name": "SITI NUR ANNA MARYAM, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "BIMBINGAN DAN KONSELING",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/sittinur-anna-maryam.jpeg"
+  },
+  {
+    "name": "M ZAHIR B, S.Pd, M.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "PJOK",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "WAHYUDIN, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPS",
+    "status": "PNS",
+    "group": "guru",
+    "photo": "assets/images/wahyudin.jpeg"
+  },
+  {
+    "name": "NURHAENAH, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "PPKN",
+    "status": "PPPK",
+    "group": "guru",
+    "photo": "assets/images/nurhaennah.jpeg"
+  },
+  {
+    "name": "RUSMIATI, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "MATEMATIKA",
+    "status": "PPPK",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "AMIR, S.Pd.I",
+    "jabatan": "Guru Mapel",
+    "mapel": "PENDIDIKAN AGAMA ISLAM",
+    "status": "PPPK",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "HASNAH C, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "PENDIDIKAN AGAMA ISLAM",
+    "status": "PPPK",
+    "group": "guru",
+    "photo": "assets/images/hasnah-c.jpeg"
+  },
+  {
+    "name": "AHMAD ABDI ABI, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "SENI BUDAYA",
+    "status": "PPPK",
+    "group": "guru",
+    "photo": "assets/images/ahmad-abdi-abi.jpeg"
+  },
+  {
+    "name": "NURLAELAH, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "SENI BUDAYA",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/nurlaelah.jpeg"
+  },
+  {
+    "name": "RAHMAWATI, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "MATEMATIKA",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/rahmawati.jpeg"
+  },
+  {
+    "name": "MURNI RASYID, S.Pd.I.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "BAHASA INGGRIS",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/murni-rasyid.jpeg"
+  },
+  {
+    "name": "NUR AYU SAFITRI, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPA",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/nur-ayu-safitri.jpeg"
+  },
+  {
+    "name": "DIAN PRATIWI RASYID, M.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "INFORMATIKA",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/dian-pratiwi-rasyid.jpeg"
+  },
+  {
+    "name": "NURLAELAH, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPS",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/nurlaelah-2.jpeg"
+  },
+  {
+    "name": "NURHALIJAH R, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPS",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/nurhalijah.jpeg"
+  },
+  {
+    "name": "NURUL HIDAYAH, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "BAHASA INGGRIS",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/nurul-hidayah.jpeg"
+  },
+  {
+    "name": "NI'MA, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPS",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/nima.jpeg"
+  },
+  {
+    "name": "SALMA S, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "SENI BUDAYA/PRAKARYA",
+    "status": "PPPK Paruh Waktu",
+    "group": "guru",
+    "photo": "assets/images/salma.jpeg"
+  },
+  {
+    "name": "SUDARMAN, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "PJOK",
+    "status": "Honor (SK Dinas)",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "AHMAD ZAUQI MUNIR, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "BAHASA INGGRIS",
+    "status": "Honor (SK Dinas)",
+    "group": "guru",
+    "photo": "assets/images/ahmad-zauqi-munir.jpeg"
+  },
+  {
+    "name": "DESI, S.Hum, M.Hum",
+    "jabatan": "Guru Mapel",
+    "mapel": "INFORMATIKA",
+    "status": "Honor (SK Dinas)",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "SRI WAHYUNI RAMADHANI, S.Pd.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "INFORMATIKA",
+    "status": "Honor (SK Sekolah)",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "NURUL FADILLAH, S.Sos.,Gr.",
+    "jabatan": "Guru Mapel",
+    "mapel": "IPS",
+    "status": "Honor (SK Sekolah)",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "RAHMADANA, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "BAHASA INDONESIA",
+    "status": "Honor (SK Sekolah)",
+    "group": "guru",
+    "photo": "assets/images/rahmadana.jpeg"
+  },
+  {
+    "name": "ZAMZAM NURHANI JE'NE, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "MULOK",
+    "status": "Honor (SK Sekolah)",
+    "group": "guru",
+    "photo": "assets/images/zam-zam-nurhani-jene.jpeg"
+  },
+  {
+    "name": "AKHMAD SUYUDY BURHAN, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "PENDIDIKAN AGAMA ISLAM",
+    "status": "Honor (SK Sekolah)",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "AULIA ANANDA, S.Pd",
+    "jabatan": "Guru Mapel",
+    "mapel": "INFORMATIKA",
+    "status": "Honor (SK Sekolah)",
+    "group": "guru",
+    "photo": "assets/images/kosong.png"
+  },
+  {
+    "name": "SITTI HASPIAH HABIB, A.Md",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "PNS",
+    "group": "admin",
+    "photo": "assets/images/sitti-haspiah-habib.jpeg"
+  },
+  {
+    "name": "HENDRA SAPUTRA",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "PPPK Paruh Waktu",
+    "group": "admin",
+    "photo": "assets/images/hendra-saputra.jpeg"
+  },
+  {
+    "name": "NORMAYANI KADIR, S.M.",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "PPPK Paruh Waktu",
+    "group": "admin",
+    "photo": "assets/images/normayani-kadir.jpeg"
+  },
+  {
+    "name": "NURYANTI",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "PPPK Paruh Waktu",
+    "group": "admin",
+    "photo": "assets/images/nuryanti.jpeg"
+  },
+  {
+    "name": "SRI SULASTRI MASTUL",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "PPPK Paruh Waktu",
+    "group": "admin",
+    "photo": "assets/images/sri-sulastri-mastul.jpeg"
+  },
+  {
+    "name": "ISNAWATI, S.Pd",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "PPPK Paruh Waktu",
+    "group": "admin",
+    "photo": "assets/images/isnawati.jpeg"
+  },
+  {
+    "name": "NUR ISLAMIAH RAHIM, SE",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "Honor (SK Sekolah)",
+    "group": "admin",
+    "photo": "assets/images/nur-islamiah-rahim.jpeg"
+  },
+  {
+    "name": "NOVA ANGRIANI",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "Honor (SK Sekolah)",
+    "group": "admin",
+    "photo": "assets/images/nova-angraini.jpeg"
+  },
+  {
+    "name": "FITRI PUSPITASARI, S.Kom",
+    "jabatan": "Tenaga Adminitrasi",
+    "mapel": "Tenaga Kependidikan",
+    "status": "Honor (SK Sekolah)",
+    "group": "admin",
+    "photo": "assets/images/fitri-puspitasari.jpeg"
+  }
+]
