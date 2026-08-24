@@ -80,3 +80,229 @@ nav ul li a {
         flex-direction: column;
     }
 }
+
+/* =========================================================
+   WEBSITE NAVBAR / DROPDOWN
+   ========================================================= */
+
+.topbar {
+    position: relative;
+    z-index: 1000;
+}
+
+.topbar .container {
+    width: 100%;
+}
+
+.topbar-inner {
+    position: relative;
+}
+
+.brand {
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar-utility {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    position: relative;
+    z-index: 1001;
+}
+
+.desktop-nav-shell,
+.mobile-nav-shell {
+    position: relative;
+}
+
+.public-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.public-nav-desktop {
+    display: flex;
+}
+
+.public-nav-mobile {
+    display: none;
+}
+
+.nav-item {
+    position: relative;
+    list-style: none;
+}
+
+.nav-link-main {
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+
+.public-nav-desktop > .nav-item > .nav-link-main {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+    white-space: nowrap;
+}
+
+.nav-toggle {
+    width: 100%;
+}
+
+.nav-caret {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-caret svg {
+    width: 16px;
+    height: 16px;
+}
+
+.nav-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    padding: 8px 0;
+    margin: 0;
+    list-style: none;
+    background: #003087;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.18);
+    z-index: 2000;
+    display: none;
+}
+
+.nav-has-children:hover > .nav-submenu,
+.nav-has-children:focus-within > .nav-submenu,
+.nav-has-children.is-open > .nav-submenu {
+    display: block;
+}
+
+.nav-submenu .nav-link-main {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.nav-submenu .nav-link-main:hover,
+.public-nav-desktop > .nav-item > .nav-link-main:hover,
+.public-nav-desktop > .nav-item > .nav-link-main.active {
+    background: rgba(255,255,255,.12);
+}
+
+.nav-auth {
+    margin-left: auto;
+}
+
+.mobile-menu-toggle {
+    display: none;
+}
+
+/* Desktop */
+@media (min-width: 981px) {
+    .nav-submenu {
+        pointer-events: auto;
+    }
+
+    .nav-has-children > .nav-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 980px) {
+    .topbar-inner {
+        flex-wrap: wrap;
+    }
+
+    .mobile-menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+        width: 42px;
+        height: 42px;
+        padding: 8px;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .mobile-menu-toggle span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background: #fff;
+        border-radius: 2px;
+    }
+
+    .desktop-nav-shell {
+        display: none;
+    }
+
+    .mobile-nav-shell {
+        width: 100%;
+    }
+
+    .public-nav-mobile {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .nav-links.is-open .public-nav-mobile {
+        display: flex;
+    }
+
+    .public-nav-mobile > .nav-item > .nav-link-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 12px 15px;
+        text-align: left;
+    }
+
+    .public-nav-mobile .nav-submenu {
+        position: static;
+        min-width: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+        background: rgba(0,0,0,.12);
+    }
+
+    .public-nav-mobile .nav-has-children.is-open > .nav-submenu {
+        display: block;
+    }
+
+    .public-nav-mobile .nav-submenu .nav-link-main {
+        padding: 10px 28px;
+    }
+}
