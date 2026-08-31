@@ -1,0 +1,47 @@
+[
+  {
+    "kelas": 7,
+    "mapel": [
+      { "nama": "Matematika", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Bahasa Indonesia", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Bahasa Inggris", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Ilmu Pengetahuan Alam (IPA)", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Ilmu Pengetahuan Sosial (IPS)", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Pendidikan Pancasila", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Seni Budaya", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Pendidikan Jasmani (PJOK)", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Prakarya", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" },
+      { "nama": "Pendidikan Agama", "url": "https://youtu.be/j3-vxTMQlXM?si=uvnVC3YkqvYbNCqq" }
+    ]
+  },
+  {
+    "kelas": 8,
+    "mapel": [
+      { "nama": "Matematika", "url": "" },
+      { "nama": "Bahasa Indonesia", "url": "" },
+      { "nama": "Bahasa Inggris", "url": "" },
+      { "nama": "Ilmu Pengetahuan Alam (IPA)", "url": "" },
+      { "nama": "Ilmu Pengetahuan Sosial (IPS)", "url": "" },
+      { "nama": "Pendidikan Pancasila", "url": "" },
+      { "nama": "Seni Budaya", "url": "" },
+      { "nama": "Pendidikan Jasmani (PJOK)", "url": "" },
+      { "nama": "Prakarya", "url": "" },
+      { "nama": "Pendidikan Agama", "url": "" }
+    ]
+  },
+  {
+    "kelas": 9,
+    "mapel": [
+      { "nama": "Matematika", "url": "" },
+      { "nama": "Bahasa Indonesia", "url": "" },
+      { "nama": "Bahasa Inggris", "url": "" },
+      { "nama": "Ilmu Pengetahuan Alam (IPA)", "url": "" },
+      { "nama": "Ilmu Pengetahuan Sosial (IPS)", "url": "" },
+      { "nama": "Pendidikan Pancasila", "url": "" },
+      { "nama": "Seni Budaya", "url": "" },
+      { "nama": "Pendidikan Jasmani (PJOK)", "url": "" },
+      { "nama": "Prakarya", "url": "" },
+      { "nama": "Pendidikan Agama", "url": "" }
+    ]
+  }
+]
